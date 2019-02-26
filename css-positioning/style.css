@@ -1,0 +1,70 @@
+/*all the document*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; /*no units when it's 0*/
+}
+
+article {
+  position: relative;
+  padding: 10px;
+
+  width: 50vw; /*half the viewport*/
+  min-height: 100vh;
+
+  border: 10px solid blue;
+}
+
+h1 {
+  position: relative;
+
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+
+p {
+  font-family: sans-serif;
+  line-height: 1.25; /*Without units too*/
+}
+
+a {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+
+  display: inline-block;
+
+  border: 1px solid blue;
+  border-radius: 10px;
+
+  text-decoration: none;
+}
+
+span {
+  width: 4em;
+  height: 4em;
+
+  display: block;
+
+  font-size: .5em;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 4em;
+
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+.span-position {
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+}
+
+.link {
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+}
