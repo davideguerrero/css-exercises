@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  background-color: #eeeeee;
+}
+
+article {
+  /* center an element inside the container */
+  margin: 20 auto;
+  /* give the ability to shrink below 600px */
+  max-width: 600px;
+  /* include the floating elementgs in the container height */
+  overflow: hidden;
+  
+  border: 1px solid red;
+}
+
+.fake-image {
+  width: 150px;
+  height: 200px;
+
+  margin-right: 1.15em;
+  margin-bottom: 1.15em;
+
+  border: 10px solid yellow;
+
+  /* float */
+  float: left;
+}
+
+.article-right .fake-image {
+  float: right;
+  margin-right: 0;
+  margin-left: 1.15em;
+}
+
+.fake-link {
+  float: left;
+  /* in this case "both" also for the next link selector */
+  clear: both;
+}
+
+.article-right .fake-link {
+  float: right;
+  clear: right;
+}
+
+
+
+h2 {
+  margin-top: 0;
+}
