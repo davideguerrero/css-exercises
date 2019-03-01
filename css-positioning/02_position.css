@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEEEEE;
+  }
+
+div {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 600px;
+
+  background-color: #DDDDDD;
+}
+
+/* h2 {
+  margin-top: 0;
+} */
+
+.image-one {
+  width: 100px;
+  height: 150px;
+  float: left;
+
+  margin-right: 1em;
+  margin-top: 0;
+
+  background-color: #FFFF0B;
+}
+
+.image-two {
+  width: 100px;
+  height: 150px;
+  float: right;
+
+  margin-left: 1em;
+  margin-top: 0;
+
+  background-color: #FFFF0B;
+}
+
+/* .five {
+  margin-bottom: 0;
+} */

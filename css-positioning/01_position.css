@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  margin: 0;
+}
+
+div {
+  margin: 0 auto;
+  max-width: 710px;
+  overflow: hidden;
+
+  border: 5px solid black;
+}
+
+.one {
+  width: 300px;
+  height: 300px;
+  float: left;
+
+  background-color: #FAEBD7;
+}
+.two {
+  width: 400px;
+  height: 400px;
+  float: right;
+
+  background-color: #2CFFFF;
+}
+.three {
+  width: 300px;
+  height: 400px;
+  float: left;
+
+  background-color: #84FFD4;
+}
+.four {
+  width: 400px;
+  height: 200px;
+  float: right;
+
+  background-color: #F0FFFF;
+}
+.five {
+  width: 400px;
+  height: 100px;
+  float: right;
+
+  background-color: #F5F6DC;
+}

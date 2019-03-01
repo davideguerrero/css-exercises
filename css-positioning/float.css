@@ -10,10 +10,10 @@ body {
 
 article {
   /* center an element inside the container */
-  margin: 20 auto;
+  margin: 0 auto;
   /* give the ability to shrink below 600px */
   max-width: 600px;
-  /* include the floating elementgs in the container height */
+  /* include the floating elements in the container height */
   overflow: hidden;
   
   border: 1px solid red;
@@ -48,8 +48,6 @@ article {
   float: right;
   clear: right;
 }
-
-
 
 h2 {
   margin-top: 0;
