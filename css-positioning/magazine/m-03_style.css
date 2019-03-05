@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Favorit Std', sans-serif;
+
+  color: black;
+  background-color: #EEEEEE;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 960px;
+  min-height: 595px;
+  overflow: hidden;
+
+  background-color: white;
+}
+
+.left {
+  max-width: 480px;
+  min-height: 595px;
+  overflow: hidden;
+
+  float: left;
+
+  background-image: url("03.png");
+}
+
+.right {
+  max-width: 480px;
+  min-height: 595px;
+  overflow: hidden;
+
+  float: left;
+
+  background-image: url("04.png");
+}
+
+img {
+  margin-top: 0;
+}
+
+.footer {
+  margin-top: 32px;
+  padding-right: 32px;
+  margin-left: 250px;
+  padding-top: 5px;
+  float: right;
+
+  border-top: 2px solid black;
+
+  font-size: .75em;
+}
+
+.number {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  margin-left: 16px;
+  padding-top: 10px;
+  padding-right: 15px;
+  clear: both;
+  float: left;
+
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+
+  font-size: .75em;
+}
+
+.brand {
+  margin-top: 18px;
+  margin-left: 150px;
+  float: left;
+
+  font-size: .5em;
+}
+
+span {
+  font-weight: bold;
+
+  color: #0000ff;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  margin-top: 0;
+
+  font-family: Times, serif;
+  font-size: .75em;
+}
+
+.number-1 {
+  margin-top: 9px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  padding-top: 10px;
+  padding-left: 15px;
+  clear: both;
+  float: right;
+
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+
+  font-size: .75em;
+}
+
+.five {
+  width: 50px;
+  height: 200px;
+  margin-right: 16px;
+  margin-left: 32px;
+  float: left;
+
+  background-color: #0000ff;
+}
+ 
+.one {
+  margin-top: 32px;
+  margin-right: 100px;
+}
+
+.two {
+  margin-top: 0;
+  margin-right: 202px;
+  margin-left: 96px;
+
+  font-style: italic;
+
+  color: grey;
+}
+
+.three {
+  margin-top: 0;
+  margin-right: 110px;
+  margin-left: 32px;
+  float: right;
+}
+
+.four {
+  margin-top: 0;
+  margin-right: 128px;
+  margin-left: 96px;
+  float: right;
+}
+
+.six {
+  margin-top: 89px;
+  margin-right: 32px;
+  margin-left: 250px;
+  float: right;
+}

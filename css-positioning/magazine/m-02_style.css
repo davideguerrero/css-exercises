@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Favorit Std', sans-serif;
+
+  color: black;
+  background-color: #EEEEEE;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 960px;
+  min-height: 595px;
+  overflow: hidden;
+
+  background-color: white;
+}
+
+.left {
+  max-width: 480px;
+  min-height: 595px;
+  overflow: hidden;
+
+  float: left;
+}
+
+.right {
+  max-width: 480px;
+  min-height: 595px;
+  overflow: hidden;
+
+  float: left;
+}
+
+img {
+  margin-top: 50px;
+}
+
+.footer {
+  margin-top: 16px;
+  padding-top: 5px;
+  padding-left: 35px;
+  float: left;
+
+  border-top: 2px solid black;
+
+  font-size: .75em;
+}
+
+.number {
+  margin-top: 110px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  padding-top: 10px;
+  padding-right: 15px;
+  clear: both;
+  float: left;
+
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+
+  font-size: .75em;
+}
+
+.brand {
+  margin-top: 130px;
+  margin-left: 150px;
+  float: left;
+
+  font-size: .5em;
+}
+
+span {
+  font-weight: bold;
+
+  color: #0000ff;
+}
+
+.author {
+  margin-top: 32px;
+  margin-left: 96px;
+  float: left;
+
+  font-size: .75;
+  
+  color: grey;
+}
+
+h3 {
+  margin-top: auto;
+  margin-left: 64px;
+  clear: both;
+
+  font-weight: 400;
+
+  color: grey;
+  border-bottom: 2px solid #0000ff;
+}
+
+h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 32px;
+  font-size: 3em;
+  font-weight: bold;
+
+  color: #0000ff;
+}
+
+.one,
+.two,
+.three {
+  margin-top: 0;
+  margin-right: 32px;
+
+  font-family: Times, serif;
+  font-size: .75em;
+}
+
+.number-1 {
+  margin-top: 9px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  padding-top: 10px;
+  padding-left: 15px;
+  clear: both;
+  float: right;
+
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+
+  font-size: .75em;
+}
+ 
+.one {
+  margin-top: 0;
+  margin-left: 96px;
+  float: right;
+}
+
+.two {
+  margin-top: 0;
+  margin-left: 128px;
+  float: right;
+
+  font-style: italic;
+
+  color: grey;
+}
+
+.three {
+  margin-top: 0;
+  margin-right: 96px;
+  margin-left: 64px;
+  float: right;
+}
