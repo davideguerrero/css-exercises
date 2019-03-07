@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+section {
+  margin: 50px auto;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+
+  border: 1px dashed black;
+}
+
+.first {
+  padding: 75px 50px;
+  align-self: flex-start;
+
+  border: 3px solid pink;
+}
+
+.second {
+  padding: 75px 50px;
+
+  border: 3px solid pink;
+}
+
+.third {
+  padding: 75px 50px;
+  align-self: flex-end;
+
+  border: 3px solid pink;
+}

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  align-self: center;
+}
+
+.item {
+  border: none;
+}
+
+a {
+  padding: 10px;
+
+  border-right: 1px solid red;
+  color: red;
+}
+
+nav {
+  margin: 100px auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+
+  background-color: pink;
+}
+

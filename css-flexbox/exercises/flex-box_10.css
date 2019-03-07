@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 100px auto;
+  max-width: 800px;
+  display: flex;
+
+  background-color: pink;
+}
+
+ul {
+}
+
+.item {
+  border: none;
+}
+
+a {
+  padding: 10px;
+
+  border-right: 1px solid red;
+  color: red;
+}
+
