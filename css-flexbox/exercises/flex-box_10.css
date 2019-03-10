@@ -2,25 +2,46 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+
+  background-color: #eeeeee;
+}
+
 nav {
+  display: flex;
+
   margin: 100px auto;
   max-width: 800px;
-  display: flex;
 
   background-color: pink;
 }
 
-ul {
-}
+nav a {
+  align-self: flex-end;
 
-.item {
-  border: none;
-}
-
-a {
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 10px;
 
-  border-right: 1px solid red;
   color: red;
+  border-right: 1px solid red;
 }
 
+nav a:first-child {
+  align-self: stretch;
+
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+
+  font-size: 1.35em;
+  font-weight: bold;
+
+  color: white;
+  background-color: red;
+}
+
+nav a:last-child {
+  border: 0;
+}

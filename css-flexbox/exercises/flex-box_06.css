@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+
+  background-color: #eeeeee;
+}
+
+.container {
+  display: flex;
+
+  margin: 0 auto;
+  max-width: 800px;
+  min-height: 800px;
+
+  border: 1px dashed black;
+}
+
+nav, article, aside {
+  padding: 20px;
+}
+
+nav, aside {
+  background-color: lightgray;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+}
+
+nav, aside {
+  flex-basis: 80%;
+}
+
+.copy {
+  margin-top: auto;
+  margin-bottom: 0;
+  padding: 20px;
+  
+  background-color: #E7E7E7;
+}

@@ -1,39 +1,37 @@
 * {
   box-sizing: border-box;
-
-  font-family: sans-serif;
 }
 
 body {
+  font-family: sans-serif;
+
   background-color: #eeeeee;
 }
 
 section {
+  display: flex;
+
   margin: 50px auto;
   max-width: 800px;
   height: 800px;
-  display: flex;
 
   border: 1px dashed black;
 }
 
-.first {
+article {
   padding: 50px;
-  align-self: flex-start;
 
   border: 3px solid pink;
+}
+
+.first {
+  align-self: flex-start;
 }
 
 .second {
-  padding: 50px;
   align-self: center;
-
-  border: 3px solid pink;
 }
 
 .third {
-  padding: 50px;
   align-self: flex-end;
-
-  border: 3px solid pink;
 }
