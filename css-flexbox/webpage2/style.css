@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+
+  background-color: #000000;
+}
+
+.logo {
+  max-width: 50%;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  
+  padding: 15px;
+  width: 100%;
+  font-size: 1.5em;
+
+  background-color: #d7d7d7;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+p {
+  font-weight: lighter;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+.banner {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  padding: 30px;
+
+  color: #ffffff;
+  background-color: #363535;
+}
+
+.info-banner {
+  display: flex;
+  flex-flow: column;
+  margin-left: 160px;
+}
+
+.button {
+  max-width: 200px;
+  padding: 20px;
+  margin-top: 3em;
+
+  text-align: center;
+  font-weight: lighter;
+
+  color: #ffffff;
+  background-color: #ef7226;
+}
+
+.img-banner {
+  max-width: 50%;
+  margin-bottom: -75px;
+}
+
+article {
+  display: flex;
+  flex-flow: column;
+}
+
+.img-product {
+
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 500px;
+
+  color: #ffffff;
+
+  background-image: url(images/bkg-productfacts-liquid.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
