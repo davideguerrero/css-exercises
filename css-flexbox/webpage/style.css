@@ -115,7 +115,7 @@ h2 {
   background-position: right;
 }
 
-.first {
+h3 {
   max-width: 75%;
   margin: 0;
 
@@ -160,13 +160,6 @@ p {
   background-position: left;
 }
 
-.second {
-  max-width: 75%;
-  margin: 0;
-
-  font-size: 2.25em;
-}
-
 .second span {
   background-color: #e8420d;
 }
@@ -184,12 +177,6 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-}
-
-.third {
-  margin: 0;
-
-  font-size: 2.25em;
 }
 
 .third span {

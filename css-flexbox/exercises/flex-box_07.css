@@ -65,10 +65,6 @@ article {
   background-color: white;
 }
 
-nav, aside {
-flex-basis: 80%;
-}
-
 .copy {
   margin-top: 100px;
   margin-bottom: 0;

@@ -33,10 +33,6 @@ article {
   background-color: white;
 }
 
-nav, aside {
-  flex-basis: 80%;
-}
-
 .copy {
   margin-top: auto;
   margin-bottom: 0;
