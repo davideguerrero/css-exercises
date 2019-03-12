@@ -2,27 +2,30 @@
   box-sizing: border-box;
 }
 
-ul {
-  align-self: center;
-}
+body {
+  font-family: sans-serif;
 
-.item {
-  border: none;
-}
-
-a {
-  padding: 10px;
-
-  border-right: 1px solid red;
-  color: red;
+  background-color: #eeeeee;
 }
 
 nav {
-  margin: 100px auto;
-  max-width: 800px;
   display: flex;
   justify-content: center;
+
+  margin: 100px auto;
+  padding: 10px;
+  max-width: 800px;
 
   background-color: pink;
 }
 
+nav a {
+  padding: 10px;
+
+  color: red;
+  border-right: 1px solid red;
+}
+
+nav a:last-child {
+  border: 0px;
+}
