@@ -146,6 +146,13 @@ footer {
 
 /* ============================= */
 
+@media (max-width: 750px) {
+  .img-banner {
+    max-width: 70%;
+  }
+  
+}
+
 @media (max-width: 650px) {
   .logo {
     height: 75px;
@@ -203,6 +210,7 @@ footer {
   article {
     padding: 40px 100px;
   }
+
 }
 
 @media (max-width: 510px) {
