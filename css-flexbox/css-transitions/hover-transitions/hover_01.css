@@ -13,12 +13,10 @@ body {
 }
 
 div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   
   border-radius: 50px;
   background-color: #161617;
@@ -28,8 +26,8 @@ div {
 
 a {
   position: absolute;
-  top: 650px;
-  right: 600px;
+  top: 65px;
+  right: 40px;
 
   font-weight: 400;
   font-size: 2em;
@@ -38,24 +36,26 @@ a {
   color: transparent;
   text-decoration: none;
 
-  transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out -.1s;
+}
+
+img {
+  padding-top: 2px;
+  padding-left: 2px;
 }
 
 div:hover {
-  justify-content: flex-start;
-  padding-left: 25px;
-
-  width: 220px;
-  border-radius: 50px;
+  padding-left: 15px;
+  width: 200px;
   box-shadow: 0 20px 20px #aaa;
 }
 
 div:hover a {
-  top: 625px;
-  right: 600px;
+  padding-left: 40px;
+  top: 22px;
 
   visibility: visible;
   color: #fff;
 
-  transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out .20s;
 }
