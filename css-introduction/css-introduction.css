@@ -1,0 +1,30 @@
+/* Select body element */
+/* shift + option - é or + */
+
+/* RULE
+===================
+selector {
+  property: value;
+}
+*/
+
+/* Select the body element */
+body {
+  /* Applied the background color */
+  background-color: red;
+  /* Default browser text is 16px */
+  font-size: 100%;
+}
+
+p {
+  /* Overwrite font size defined in the body */
+  font-size: 24px;
+}
+
+/* Class selector */
+.specialParagraph {
+  background-color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 32px;
+}
