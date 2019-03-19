@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  /* center */
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  align-content: center;
+}
+
+/* the main ball container */
+.ball {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  
+  /* center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* to contain the absolutely positioned pseudo elements */
+  position: relative;
+  
+  /* styles */
+  font-size: 2em;
+  font-family: sans-serif;
+  background-color: black;
+  border-radius: 50%;
+
+  /* to hide them */
+  overflow: hidden;
+}
+
+.ball-number {
+  width: 38%;
+  height: 38%;
+  
+  /* center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* style */
+  background-color: beige;
+  border-radius: 50px;
+}
+
+.ball-number-alt:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  position: absolute;
+
+  /* move the box up */
+  transform: translateY(-80%);
+
+  background-color: beige;
+}
+
+.ball-number-alt:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  position: absolute;
+
+  /* move the box up */
+  transform: translateY(80%);
+
+  background-color: beige;
+}
+
+/* different billiard balls */
+.ball-five {
+  background-color: orange;
+}
+
+.ball-nine {
+  background-color: yellow;
+}
+
+.ball-eleven {
+  background-color: red;
+}
+
+/* ======================= */
+
+/* .ball-transform {
+  transform: rotate(90deg); */
+
+  /* transform: scale(3); */
+  
+  /* transform: skewX(-80deg); */
+/* } */
+
+
+.ball-transform {
+  transition: transform 350ms ease-in-out 500ms;
+  
+  /* transform: scale(3); */
+  
+  /* transform: skewX(-80deg); */
+}
+
+.ball-transform:hover {
+  transition: transform 750ms ease-in-out;
+  /* transform: scale(2); */
+
+
+  /* when you animate an element don't move it */
+  transform-origin: bottom right;
+  transform: scale(2);
+  
+  /* transform-origin: center;
+  transform: translateX(50%) rotate(1turn); */
+
+  cursor: pointer;
+
+  /* transform: scale(3); */
+  
+  /* transform: skewX(-80deg); */
+}
