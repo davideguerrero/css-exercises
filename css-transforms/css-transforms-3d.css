@@ -20,13 +20,19 @@ body {
 }
 
 .card {
-  border: 5px solid red;
   position: relative;
   /* the children keep the 3d properties */
   transform-style: preserve-3d;
+
+  font-size: 4em;
+  border: 5px solid red;
 }
 
 .side {
+  /* overwrite the custom property value */
+  --box-size: 150px;
+
+  /* use the custom property by wrapping it in var() */
   width: var(--box-size);
   height: var(--box-size);
   text-align: center;
@@ -42,11 +48,13 @@ body {
 
 .side-back {
   transform: rotateY(180deg);
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
 
   position: absolute;
   top: 0;
   left: 0;
+
+  color: red;
 }
 
 /* transform */
@@ -57,7 +65,7 @@ body {
 }
 
 .transform {
-  transition: transform 1000ms;
+  transition: transform 1000ms ease-in-out;
 }
 
 body:hover .transform {
