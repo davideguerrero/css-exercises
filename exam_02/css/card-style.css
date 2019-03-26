@@ -55,12 +55,14 @@ p {
 }
 
 img {
-width: 225px;
+  margin-top: 2em;
+
+  width: 200px;
 }
 
 a {
-  margin-top: 5em;
-  margin-bottom: 5em;
+  margin-top: 4.5em;
+  margin-bottom: 3.5em;
   padding: 10px 50px;
 
   font-weight: 300;
@@ -69,4 +71,8 @@ a {
 
   color: #fff;
   background-color: #ff5e43;
+}
+
+a:hover {
+  background-color: #c34833;
 }
