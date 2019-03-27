@@ -36,7 +36,7 @@ img {
 
 @media (min-width: 420px) and (max-width: 1024px) {
   .container {
-    max-width: 768px;
+    width: 735px;
   }
   
 }
