@@ -17,7 +17,7 @@ body {
   
   margin-top: 100px;
 
-  max-width: 1050px;
+  max-width: 1024px;
 }
 
 img {
@@ -34,14 +34,25 @@ img {
   order: 2;
 }
 
-@media (min-width: 420px) and (max-width: 1024px) {
+@media (max-width: 734px) {
   .container {
-    width: 735px;
+    flex-flow: column;
   }
-  
+
+  .position01 {
+    order: -1;
+  }
+
+  .small_03 {
+    order: 3;
+  }
+
+  .small_04 {
+    order: 4;
+  }
 }
 
-@media (max-width: 419px) {
+/* @media (max-width: 420px) {
   .position01 {
     order: -1;
   }
@@ -54,4 +65,4 @@ img {
     order: 4;
   }
 
-}
+} */

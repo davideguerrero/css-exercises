@@ -15,30 +15,44 @@ body {
   left: 0;
 
   /* animation properties */
-  animation-duration: 1000ms;
-  animation-delay: .5s;
+  animation-duration: 10s;
+  animation-delay: 2.5s;
   animation-timing-function: linear;
   animation-name: goingAround;
   animation-fill-mode: forwards; /* backwards (default), jump to the beggining */
 
-  background-color: #ff0000;
+  animation-iteration-count: infinite;
+
+  background-color: #EBFF00;
 }
 
 @keyframes goingAround {
   /* starting point */
   0% {
-    background-color: #ff0000;
+    background-color: #EBFF00;
   }
 
+  25% {
+    left: calc(100% - 50px);
+    top: calc(0%);
+    background-color: #FF9D00;
+  }
+  
   50% {
     left: calc(100% - 50px);
-    background-color: #ff00aa;
+    top: calc(100% - 50px);
+    background-color: #FF0000;
+  }
+  
+  75% {
+    left: calc(0% - 0px);
+    top: calc(100% - 50px);
+    background-color: #FF9D00;
   }
 
   /* end of the animation */
   100% {
-    left: calc(100% - 50px);
-    background-color: #000000;
+    background-color: #EBFF00;
   }
 
 }
