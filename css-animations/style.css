@@ -32,7 +32,7 @@ body {
     background-color: #EBFF00;
   }
 
-  25% {
+  30% {
     left: calc(100% - 50px);
     top: calc(0%);
     background-color: #FF9D00;
@@ -44,7 +44,7 @@ body {
     background-color: #FF0000;
   }
   
-  75% {
+  80% {
     left: calc(0% - 0px);
     top: calc(100% - 50px);
     background-color: #FF9D00;
