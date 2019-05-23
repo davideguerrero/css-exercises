@@ -59,6 +59,12 @@
   margin-left: 2em;
 }
 
+.seven,
+.eight,
+.nine {
+  background-color: #00000A;
+}
+
 .five {
   grid-column-start: 4;
   grid-column-end: 8;
@@ -82,8 +88,6 @@
   grid-column-start: 6;
   grid-column-end: 7;
   
-  background-color: #00000A;
-  
   grid-row-start: 1;
   grid-row-end: 3;
 }
@@ -94,8 +98,6 @@
   
   grid-row-start: 2;
   grid-row-end: 3;
-
-  background-color: #00000A;
 }
 
 .nine {
@@ -104,8 +106,6 @@
   
   grid-row-start: 6;
   grid-row-end: 7;
-
-  background-color: #00000A;
 }
 
 .ten {
@@ -117,7 +117,7 @@
 
   z-index: 1;
   
-  background-color: #00000A;
+  background: linear-gradient(90deg, #00000A 55%, transparent 45%);
 }
 
 .eleven {
@@ -130,32 +130,11 @@
   background-color: #DFE2D9;
 }
 
-.twelf {
-  grid-column-start: 5;
-  grid-column-end: 6;
+@media (max-width: 1024px) {
+  .ten {
+    background: linear-gradient(90deg, #00000A 60%, transparent 40%);
+  }
   
-  grid-row-start: 7;
-  grid-row-end: 10;
-  
-  margin-left: -3.15em;
-  
-  z-index: 1;
-  
-  background-color: #ED047D;
-}
-
-.thirteen {
-  grid-column-start: 5;
-  grid-column-end: 7;
-  
-  grid-row-start: 8;
-  grid-row-end: 9;
-  
-  margin-left: -3.15em;
-  
-  z-index: 1;
-  
-  background-color: #DFE2D9;
 }
 
 @media (max-width: 767px) {
@@ -183,10 +162,7 @@
   
     margin-top: 1.25em;
     margin-bottom: .5em;
-  }
-  
-  .three,
-  .four {
+
     font-size: .9em;
   }
   
@@ -197,10 +173,9 @@
   .six {
     margin: 1em 0;
   }
-  
-  .twelf,
-  .thirteen {
-    margin-left: -2.4em;
+
+  .ten {
+    background: linear-gradient(90deg, #00000A 55%, transparent 45%);
   }
   
 }
@@ -235,25 +210,23 @@
     font-size: 1.25em;
   }
   
-  .twelf,
-  .thirteen {
-    margin-left: -2.75em;
+  .ten {
+    background: linear-gradient(90deg, #00000A 50%, transparent 50%);
   }
-
+  
 }
 
 @media (max-width: 320px) {
   .container {
     max-height: 450px;
-
+    
     grid-template-columns: 1fr 1fr 1fr 2.5fr 3fr 1fr 1.5fr;
-  
+    
     grid-template-rows: 3fr 1.4fr 1.5fr 1.4fr 1.4fr 1.4fr 1.4fr 1.4fr 2fr;
   }
 
-  .twelf,
-  .thirteen {
-    margin-left: -3.15em;
+  .ten {
+    background: linear-gradient(-90deg, transparent 60%, #00000A 40%);
   }
 
 }
