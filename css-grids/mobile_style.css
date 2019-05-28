@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+
+  color: white;
+  background-color: lightgray;
+}
+
+/* Mobile First */
+
+article {
+  font-size: 2em;
+  font-weight: 600;
+
+  border: 5px solid black;
+}
+
+h1,
+.content,
+nav,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 1em 0;
+  
+  background-color: red;
+}
+
+h2 {
+  margin: 0;
+}
+
+.content {
+  padding: 1em 0;
+  
+  background-color: orange;
+}
+
+nav {
+  background-color: blue;
+}
+
+footer {
+  padding: 1.75em 0;
+
+  background-color: green;
+}
+
+/* Desktop First */
+
+/* article {
+  display: grid;
+  max-width: 1024px;
+  max-height: 661px;
+  margin: 0 auto;
+
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 2fr 1fr;
+
+  border: 5px solid black;
+}
+
+h1,
+.content,
+nav,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 1em 0;
+
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  
+  background-color: red;
+}
+
+h2 {
+  margin: 0;
+}
+
+.content {
+  flex-flow: column;
+  padding: 25px;
+
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  
+  background-color: orange;
+}
+
+nav {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+  
+  background-color: blue;
+}
+
+footer {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+
+  background-color: green;
+} */
+
+/* Desktop First */
+
+@media (min-width: 426px) {
+  article {
+    display: grid;
+    max-width: 1024px;
+    margin: 0 auto;
+  
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+
+  h1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .content {
+    padding: 25px;
+    
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  nav {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+  
+  footer {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+  
+}
+
+/* Mobile First */
+
+/* @media (min-width: 426px) {
+  .content {
+    padding: 1em 0;
+
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+
+  nav {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  footer {
+    padding: 1.75em 0;
+
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+  }
+  
+} */

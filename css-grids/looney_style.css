@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0
+}
+
+div {
+  width: 1024px;
+  height: 1024px;
+
+  background: radial-gradient(#001372 30%, #EA6B65 30%, #970000 32% 40%, #EA6B65 41% 42%, #970000 45% 53%, #EA6B65 47% 48%, #970000 53% 58%, #EA6B65 59% 60%, #970000 65% 79%, #EA6B65 82% 83%, #970000 88% 93%);
+}
